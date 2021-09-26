@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SinStuff : MonoBehaviour
+public class SinStuff1 : MonoBehaviour
 {
     public Vector3 frequency, amplitude, offset;
     public bool move, rotate, size;
