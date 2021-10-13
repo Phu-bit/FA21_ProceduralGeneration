@@ -6,13 +6,17 @@ public class RandomCamera : MonoBehaviour
 {
     // Start is called before the first frame update
     public Camera cam;
+    public bool MoveCamera = false;
 
     void Start()
     {
         
         cam.backgroundColor = UnityEngine.Random.ColorHSV();
+        if (MoveCamera == true)
+        {
+            moveobject();
 
-        moveobject();
+        }
     }
 
     // Update is called once per frame
